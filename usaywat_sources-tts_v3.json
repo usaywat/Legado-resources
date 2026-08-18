@@ -906,7 +906,7 @@
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "思必驰——超拟人♀️然然（夹子）",
+    "name": "思必驰——超拟人♀️然然（萝莉）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=sp_index_childf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -1760,7 +1760,7 @@
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "思必驰——传统♀️然然（夹子）",
+    "name": "思必驰——传统♀️然然（萝莉）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=qianranf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -2474,7 +2474,7 @@
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "思必驰——臻品♀️然然（夹子）",
+    "name": "思必驰——臻品♀️然然（萝莉）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=qianranfv5&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
