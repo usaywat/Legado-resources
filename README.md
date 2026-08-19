@@ -1,5 +1,3 @@
-不知道怎麼把json變成url，會的告訴我一下。raw.githubusercontent試過了不行。
-
 # Directory
 
 |FILE|DESCRIPTION|COUNT|
@@ -20,12 +18,12 @@ usaywat_sources-video|影片源
 usaywat_theme|主題
 usaywat_theme-pkg|主題包
 
->註：Work In Progress（WIP）= 正在進行中的項目，bug無數
+>註：https://raw.githubusercontent.com/usaywat/Legado-resources/main/Sources/{filename}.json
 
 ## Fonts
 主要放置平時常用的字型，不一定是最新版本，建議訂閲原作者：
 
-|FONT|VERSION|繁簡|AUTHOR|SOURCE|
+|FONT|VER.|繁簡|AUTHOR|SOURCE|
 |---|---|---|---|---|
 縫合像素
 原俠正楷
