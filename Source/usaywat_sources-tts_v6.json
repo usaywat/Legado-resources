@@ -1,27 +1,35 @@
 [
   {
-    "concurrentRate": "0",
-    "contentType": "",
-    "enabledCookieJar": false,
-    "header": "",
-    "id": "",
-    "jsLib": "",
-    "lastUpdateTime": 20260818163415,
-    "loginCheckJs": "",
-    "loginUi": "",
-    "loginUrl": "",
-    "name": "百度♂️度逍遥",
-    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=3&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
+  "concurrentRate": "0",
+  "enabledCookieJar": false,
+  "id": 8883,
+  "lastUpdateTime": 1787541055365,
+  "name": "百度——度博文♂️播音腔",
+  "pauseDuration": 200,
+  "url": "http://tts.baidu.com/text2audio,{\n    \"method\": \"POST\",\n    \"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 5}}&per=4106&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=301&vol=15&aue=6&pit=5&_res_tag_=audio\"\n}"
+  },
+  {
+  "enabledCookieJar": false,
+  "id": 888106,
+  "lastUpdateTime": 1787537984968,
+  "name": "百度——度博文♂️声弱气短",
+  "pauseDuration": 100,
+  "url": "http://tts.baidu.com/text2audio,{\n    \"method\": \"POST\",\n    \"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=106&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=301&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
+  },
+  {
+  "concurrentRate": "0",
+  "enabledCookieJar": false,
+  "id": 1702154033416,
+  "lastUpdateTime": 1787541354180,
+  "name": "百度——度逍遥♂️说书腔",
+  "pauseDuration": 200,
+  "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=3&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "500",
-    "contentType": "",
     "enabledCookieJar": false,
-    "header": "",
     "id": 1758707098596,
-    "jsLib": "",
     "lastUpdateTime": 1786983608783,
-    "loginCheckJs": "",
     "loginUi": "[\n    {\n        \"name\": \"▱▱▱▱显示当前接口▱▱▱▱\",\n        \"type\": \"button\",\n        \"action\": \"get(sz)\"\n    },\n    {\n        \"name\": \"DS\",\n        \"type\": \"button\",\n        \"action\": \"set(0)\",\n        style: {layout_wrapBefore: true,layout_flexBasisPercent:0.2}\n    },\n    {\n        \"name\": \"豆包\",\n        \"type\": \"button\",\n        \"action\": \"set(1)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"智脑\",\n        \"type\": \"button\",\n        \"action\": \"set(2)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"通义\",\n        \"type\": \"button\",\n        \"action\": \"set(3)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"混元\",\n        \"type\": \"button\",\n        \"action\": \"set(4)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"文心\",\n        \"type\": \"button\",\n        \"action\": \"set(5)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"Max\",\n        \"type\": \"button\",\n        \"action\": \"set(6)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"智谱\",\n        \"type\": \"button\",\n        \"action\": \"set(7)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"商汤\",\n        \"type\": \"button\",\n        \"action\": \"set(8)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"零一\",\n        \"type\": \"button\",\n        \"action\": \"set(9)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"小应\",\n        \"type\": \"button\",\n        \"action\": \"set(10)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"星火\",\n        \"type\": \"button\",\n        \"action\": \"set(11)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"星辰\",\n        \"type\": \"button\",\n        \"action\": \"set(12)\",\n        style: {layout_flexBasisPercent: 0.2}\n    },\n    {\n        \"name\": \"Kimi\",\n        \"type\": \"button\",\n        \"action\": \"set(13)\",\n        style: {layout_flexBasisPercent: 0.2}\n    }\n]",
     "loginUrl": "// 接口设置，以及链接\nvar sz = source.getLoginHeader();\nvar data = [\n    [\"DS\", \"DeepSeek\"],\n    [\"豆包\", \"doubao\"],\n    [\"智脑\", \"zhinao\"],\n    [\"通义\", \"tongyi\"],\n    [\"混元\", \"hunyuan\"],\n    [\"文心\", \"wenxin\"],\n    [\"Max\", \"MiniMax\"],\n    [\"智谱\", \"zhipu\"],\n    [\"商汤\", \"shangtang\"],\n    [\"零一\", \"lingyi\"],\n    [\"百小应\", \"baixiaoying\"],\n    [\"星火\", \"xunfei\"],\n    [\"星辰\", \"stepspark\"],\n    [\"Kimi\", \"Kimi\"],\n]; // 接口数据\n\n// 判断接口是否为空\nif (sz == null || sz == \"\" || isNaN(sz) || sz < 0 || sz > data.length) {\n    sz = 0;\n    source.putLoginHeader(sz)\n    java.toast(\"未设置接口或接口无效，使用默认接口：\" + data[sz][0]);\n} else {\n    sz = parseInt(sz); // 将sz转换为整数\n}\n\n// 设置保存接口\nfunction set(num) {\n    if (num < 0 || num > data.length) {\n        java.longToast(\"无效的接口编号！\");\n        return;\n    }\n    var show = \"设置成功！\\n当前接口：\";\n    var tips = \"\\n接口已更改\";\n    var msg = show + data[num][0] + tips;\n    java.longToast(msg);\n    return source.putLoginHeader(num)\n}\n\n// 获取接口显示\nfunction get(sz) {\n    if (sz < 0 || sz > data.length) {\n        java.longToast(\"无效的接口编号！\");\n        return;\n    }\n    var show = \"\\n当前接口：\\n\";\n    return java.longToast(show + data[sz][0]);\n}\n\n// 按接口获取网址\nvar api = data[sz][1];\napi;",
     "name": "明月—纳米Plus_V2（点击切换接口）",
@@ -61,7 +69,7 @@
     "enabledCookieJar": false,
     "id": 1000000000003,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——贝壳♀️精品（女童）",
+    "name": "思必驰——贝壳♀️标准（女童）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xbekef&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -89,14 +97,14 @@
     "enabledCookieJar": false,
     "id": 1000000000007,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——翠花♀️精品（东北话）",
+    "name": "思必驰——翠花♀️标准（东北话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xjingf_cdb&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000008,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——大瑶♀️精品（山东话）",
+    "name": "思必驰——大瑶♀️标准（山东话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=dayaof_csd&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -138,7 +146,7 @@
     "enabledCookieJar": false,
     "id": 1000000000014,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——风吟♀️标准（闽南）",
+    "name": "思必驰——风吟♀️标准（闽南话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=qfyanf_cmn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -173,7 +181,7 @@
     "enabledCookieJar": false,
     "id": 1000000000019,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——何春♀️标准（粤语）",
+    "name": "思必驰——何春♀️标准（广东话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=hchunf_ctn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -201,7 +209,7 @@
     "enabledCookieJar": false,
     "id": 1000000000023,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——绝音♀️标准（鬼故）",
+    "name": "思必驰——绝音♀️标准（鬼故事）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=juyinf_guigushi&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -222,14 +230,14 @@
     "enabledCookieJar": false,
     "id": 1000000000026,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——蓝雨♀️精品",
+    "name": "思必驰——蓝雨♀️标准",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lanyuf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000027,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——璃璃♀️精品（娱播）",
+    "name": "思必驰——璃璃♀️标准（娱播）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lili1f_yubo&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -257,14 +265,14 @@
     "enabledCookieJar": false,
     "id": 1000000000031,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——连连♂️传统（男童）",
+    "name": "思必驰——连连♂️标准（男童）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lzliaf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000032,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——连连♂️标准（男童）",
+    "name": "思必驰——连连♂️传统（男童）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lzliafa&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -306,21 +314,21 @@
     "enabledCookieJar": false,
     "id": 1000000000038,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——木兰♀️精品（河南话）",
+    "name": "思必驰——木兰♀️标准（河南话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xizhuf_cyu&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000039,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——胖胖♀️精品（四川话）",
+    "name": "思必驰——胖胖♀️标准（四川话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=ppangf_csn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000040,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——秋木♂️精品（故事）",
+    "name": "思必驰——秋木♂️传统（故事）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=qiumum_0gushi&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -348,28 +356,28 @@
     "enabledCookieJar": false,
     "id": 1000000000044,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——堂堂♂️标准（男童）",
+    "name": "思必驰——堂堂♂️传统（男童）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=boy&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000045,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——文卿♀️精品（四川话）",
+    "name": "思必驰——文卿♀️标准（四川话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=wqingf_csn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000046,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小浩♀️标准（客服）",
+    "name": "思必驰——小浩♀️传统（客服）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lucyfa&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000047,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小江♂️精品",
+    "name": "思必驰——小江♂️标准",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=wjianm_xsheng&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -404,7 +412,7 @@
     "enabledCookieJar": false,
     "id": 1000000000052,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小军♂️精品",
+    "name": "思必驰——小军♂️标准",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xijunma&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -425,35 +433,35 @@
     "enabledCookieJar": false,
     "id": 1000000000055,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小兰♀️标准（温柔）",
+    "name": "思必驰——小兰♀️传统（温柔）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gqlanf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000056,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小美♀️精品",
+    "name": "思必驰——小美♀️标准",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=juan1f&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000057,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小咪♀️精品",
+    "name": "思必驰——小咪♀️标准",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xmamif&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000058,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小妮♀️标准（邻家）",
+    "name": "思必驰——小妮♀️传统（邻家）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=hyanifa&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000059,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——小妮♀️传统（邻家）",
+    "name": "思必驰——小妮♀️标准（邻家）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=hyanif&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -476,6 +484,13 @@
     "lastUpdateTime": 20260818163415,
     "name": "思必驰——小佚♀️传统（平和）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=anonyf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000074,
+    "lastUpdateTime": 20260818163415,
+    "name": "思必驰——小佚♀️传统（女童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=anonyg&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
@@ -502,21 +517,21 @@
     "enabledCookieJar": false,
     "id": 1000000000066,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——晓健♀️精品（粤语）",
+    "name": "思必驰——晓健♀️标准（广东话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lunaif_ctn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000067,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——行者♀️精品",
+    "name": "思必驰——行者♀️标准",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xizhefp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
     "id": 1000000000068,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——行者♀️标准",
+    "name": "思必驰——行者♀️传统",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xizhef&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -537,7 +552,7 @@
     "enabledCookieJar": false,
     "id": 1000000000071,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——杨阿姨♀️标准",
+    "name": "思必驰——杨阿姨♀️传统",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=yaayif&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
@@ -553,13 +568,6 @@
     "lastUpdateTime": 20260818163415,
     "name": "思必驰——叶子♀️标准（上海话）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=yezi1f_csh&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
-  },
-  {
-    "enabledCookieJar": false,
-    "id": 1000000000074,
-    "lastUpdateTime": 20260818163415,
-    "name": "思必驰——佚佚♀️传统（女童）",
-    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=anonyg&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
   },
   {
     "enabledCookieJar": false,
@@ -614,22 +622,15 @@
     "enabledCookieJar": false,
     "id": 1000000000082,
     "lastUpdateTime": 20260818163415,
-    "name": "思必驰——砖砖♀️标准（故事）",
+    "name": "思必驰——砖砖♀️传统（故事）",
     "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zzhuaf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
-  },
-  {
-    "enabledCookieJar": false,
-    "id": 1000000000083,
-    "lastUpdateTime": 20260818163415,
-    "name": "讯飞♀️默认（汉语）",
-    "url": "http://120.24.87.124/cgi-bin/ekho2.pl?cmd=SPEAK&voice=iflytek&speedDelta=0&pitchDelta=0&volumeDelta=0&text={{java.encodeURI(java.encodeURI(speakText))}}"
   },
   {
     "concurrentRate": "0",
     "enabledCookieJar": false,
     "id": 1633942653731,
     "lastUpdateTime": 1786989214390,
-    "name": "讯飞♀️小琳（台普）",
+    "name": "讯飞——小琳♀️传统（台湾国语）",
     "pauseDuration": 0,
     "url": "http://120.24.87.124/cgi-bin/ekho2.pl?cmd=SPEAK&voice=iflytekXiaolin&speedDelta=0&pitchDelta=0&volumeDelta=0&text={{java.encodeURI(java.encodeURI(speakText))}}"
   },
@@ -638,7 +639,7 @@
     "enabledCookieJar": false,
     "id": 1629944057248,
     "lastUpdateTime": 1786989218970,
-    "name": "讯飞♀️小美（粤语）",
+    "name": "讯飞——小美♀️传统（转换粤语）",
     "pauseDuration": 0,
     "url": "http://120.24.87.124/cgi-bin/ekho2.pl?cmd=SPEAK&voice=iflytekXiaomei&speedDelta=0&pitchDelta=0&volumeDelta=0&text={{java.encodeURI(java.encodeURI(speakText))}}"
   }
