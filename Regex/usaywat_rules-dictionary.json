@@ -1,0 +1,184 @@
+[
+  {
+    "enabled": true,
+    "name": "粵典v5",
+    "showRule": "//h1&& \n\n//span[@class=\"zi-pronunciation\"]&& \n\n//tr[@class=\"zidin-pos\"]//span&& \n\n//div[@class=\"zidin-explanation-item\"]&&\n\n(//div[@class=\"zidin-explanation-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(广东话)\"]])[1]&& \n\n(//div[@class=\"zi-details-example-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(粵)\"]])[1]&&\n\n//span[@class=\"zi-item-example-pronunciation small\"]##",
+    "sortNumber": 1,
+    "urlRule": "https://words.hk/zidin/{{key}}"
+  },
+  {
+    "enabled": true,
+    "name": "❌粵典v4",
+    "showRule": "@js: (function(){var t=document.querySelector('h1');var title=t?t.innerText:'';var p=document.querySelector('span.zi-pronunciation');var pron=p?p.innerText:'';var po=document.querySelector('tr.zidin-pos span');var pos=po?po.innerText:'';var expl='';var items=document.querySelectorAll('.zidin-explanation-item');for(var i=0;i<items.length;i++){var item=items[i];var langs=item.querySelectorAll('.zi-item-lang');for(var j=0;j<langs.length;j++){if(langs[j].innerText.indexOf('粤')!==-1||langs[j].innerText.indexOf('粵')!==-1){var es=item.querySelector('.zi-item-explanation');if(es){expl=es.innerText.trim();}break;}}if(expl)break;}var exmp='';var exItems=document.querySelectorAll('.zidin-details-example-item');for(var i=0;i<exItems.length;i++){var item=exItems[i];var langs=item.querySelectorAll('.zi-item-lang');for(var j=0;j<langs.length;j++){if(langs[j].innerText.indexOf('粵')!==-1||langs[j].innerText.indexOf('粤')!==-1){var text=item.innerText;text=text.replace(/[（(][粵粤英][）)]\\s*/g,'');exmp=text.trim();break;}}if(exmp)break;}return '標題：'+title+'\\n讀音：'+pron+'\\n詞性：'+pos+'\\n\\n解釋：\\n'+expl+'\\n\\n例句：\\n'+exmp;})()",
+    "sortNumber": 2,
+    "urlRule": "https://words.hk/zidin/{{key}}"
+  },
+  {
+    "enabled": true,
+    "name": "✅粵典v3",
+    "showRule": "//h1&& \n//span[@class=\"zi-pronunciation\"]&& \n//tr[@class=\"zidin-pos\"]//span&& \n(//div[@class=\"zidin-explanation-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(广东话)\"]])[1]&& \n(//div[@class=\"zi-details-example-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(粵)\"]])[1]",
+    "sortNumber": 3,
+    "urlRule": "https://words.hk/zidin/{{key}}"
+  },
+  {
+    "enabled": false,
+    "name": "❌粵典v2",
+    "showRule": "//span[@class=\"zi-pronunciation\"]&&\n//tr[@class=\"zidin-pos\"]&&\n//div[@class=\"zidin-explanation-item\"]&&\n//Span[@class=\"zi-item-lang\"]&&\n//div[@class=\"zidin-details-example-heading\"]&&\n//div[@class=\"zidin-details-example-item\"]&&\n//Span[@class=\"zi-item-lang\"]&&\n//span[@class=\"zi-item-example-pronunciation small\"]",
+    "sortNumber": 4,
+    "urlRule": "https://words.hk/zidin/{{key}}"
+  },
+  {
+    "enabled": true,
+    "name": "☑️粵典v1",
+    "showRule": "//h1&&\n//table[@class=\"zi-details table table-striped\"]##版權.*|部份類近詞彙.*|AI圖.*|呢啲圖.*|(.genai).*|\\n\\n|",
+    "sortNumber": 5,
+    "urlRule": "https://words.hk/zidin/{{key}}"
+  },
+  {
+    "enabled": false,
+    "name": "📺哔哩",
+    "showRule": ".search-page@all\n@js:\n//版本号:1.0.2\n\nlet key = cache.getFromMemory('blkey');\ncache.deleteMemory('blkey');\nlet url = 'bilibili://search?keyword='+key;\nresult = result.replace(/(https:)?\\/\\/www.bilibili.com\\/video/g,'bilibili://video').replace(/(https:)?\\/\\/space.bilibili.com/g,'bilibili://space').replaceAll(/(https:)?\\/\\/live.bilibili.com/g,'bilibili://live').replace(/https:\\/\\/www.bilibili.com\\/bangumi\\/play\\/ep(\\d+)/g,'bilibili://pgc/season/ep/$1').replace(/https:\\/\\/www.bilibili.com\\/bangumi\\/play\\/ss(\\d+)/g,'bilibili://bangumi/season/$1');\n\nvar aly = new JavaImporter(Packages.org.jsoup.nodes.Element,\nPackages.org.jsoup.Jsoup,\nPackages.org.jsoup.select.Elements);\nwith (aly) {\n// rr = j.select('#b_results');\n// 解析HTML文档\nresult = Jsoup.parse(result);\nresult.select(\"img\").remove();\nlet bs = '<br><br>📺<br>';\nresult.select(\".media-card-image\").before(bs);\nresult.select(\".video-list .bili-video-card\").before(bs);\nresult.select(\"a:has(button)\").after(\"　\");\n// 查找所有的 <a> 标签\nlet links = result.select(\"a\");\nfor (link of links) {\n// 获取 <h3> 标签内\n let h3 = link.selectFirst(\"h3\");\n  if (h3 != null) {\n   let content = h3.text();\n   //移除 <h3> 标签\n   link.select(\"h3\").remove();\n   //创建一个新的<h3> 标签\n   let H3 = new Element(\"h3\").appendChild(new Element(\"a\").attr(\"href\", link.attr(\"href\")).text(content)).appendText(\"　\");\n    //新<h3> 插入到原来的位置\n    link.replaceWith(H3);\n  }\n}\n\n}\n\nlet tishi = `<h2>搜索词：<a href=\"${url}\">${key}</a>　</h2><br>`;\ntishi+result.html();",
+    "sortNumber": 6,
+    "urlRule": "@js:\ncache.putMemory('blkey',key);\nlet ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36';\n'https://search.bilibili.com/all?keyword='+key+`,{\n\"headers\":{\n \"User-Agent\": \"${ua}\"\n }\n}`"
+  },
+  {
+    "enabled": false,
+    "name": "❌必应",
+    "showRule": "@js:\nlet key = java.hexDecodeToString(result);\nlet url1 = 'https://cn.bing.com/search?q='+key+'&mkt=zh-CN';\nif (url1 != '') {\n result = java.webView(null,url1,null);\n let j = org.jsoup.Jsoup.parse(result);\n rr1 = j.select('#b_results');\n url2 = j.select('*[title=\"下一页\"]').attr('href');\n} else {rr1='';url2='';}\n\nif (url2 != '') {\n url2 = 'https://cn.bing.com' + url2;\n Packages.java.lang.Thread.sleep(400);\n result = java.webView(null,url2,null);\n let j = org.jsoup.Jsoup.parse(result);\n j.select(\".b_rs\").remove();\n rr2 = j.select('#b_results');\n url3 = j.select('*[title=\"下一页\"]').attr('href');\n} else {rr2='<p>无第二页</p>';url3='';}\n\nif (url3 != '') {\n url3 = 'https://cn.bing.com' + url3;\n Packages.java.lang.Thread.sleep(200);\n result = java.webView(null,url3,null);\n let j = org.jsoup.Jsoup.parse(result);\n j.select(\".b_rs\").remove();\n rr3 = j.select('#b_results');\n} else {rr3='<p>无第三页</p>';}\n\nrr=rr1+rr2+rr3;\n\nresult = rr.replace(/https:\\/\\/www.zhihu.com\\/([^\\/]+\\/\\d+)[^\\s\\<>'\"]*/g,'zhihu://$1')\n.replace(/https:\\/\\/zhuanlan.zhihu.com\\/p\\/(\\d+)[^\\s<>'\"]*/g,'zhihu://articles/$1')\n.replaceAll('https://www.zhihu.com/people/','zhihu://people/')\n.replace(/https:\\/\\/tieba.baidu.com\\/p\\/(\\d+)/g,'com.baidu.tieba://unidispatch/pb?tid=$1')\n.replace(/https:\\/\\/jump2.bdimg.com\\/f\\?kw=([%A-z\\d一-ꀀ]+)/g,'com.baidu.tieba://unidispatch/frs?kw=$1')\n.replaceAll('https://www.coolapk.com/','coolmarket://')\n.replace(/https:\\/\\/www.bilibili.com\\/bangumi\\/play\\/ep(\\d+)/g,'bilibili://pgc/season/ep/$1')\n.replaceAll('https://www.bilibili.com/video','bilibili://video')\n.replaceAll('https://space.bilibili.com/','bilibili://space/')\n.replaceAll('href=\"/search?q=','href=\"https://cn.bing.com/search?q=');\n\nvar aly = new JavaImporter(Packages.org.jsoup.nodes.Element,\nPackages.org.jsoup.Jsoup,\nPackages.org.jsoup.select.Elements);\nwith (aly) {\n\n// 解析HTML文档\nresult = Jsoup.parse(result);\nresult.select(\"#rs_root\").remove();\n\n// 查找所有的 <a> 标签\nlet links = result.select(\"a\");\nfor (link of links) {\n// 获取 <a> 标签内的标签\n let h2 = link.selectFirst(\"h2\");\n  if (h2 != null) {\n   let content = h2.text();\n   //移除 <h2> 标签\n   link.select(\"h2\").remove();\n   //link.removeChild(h2);另一方法，特殊情况会报错\n   //创建一个新的<h2> 标签\n   let H2 = new Element(\"h2\").appendChild(new Element(\"a\").attr(\"href\", link.attr(\"href\")).text(content));\n    //新<h2> 插入到原来的位置\n    link.replaceWith(H2);\n  }\n let h3 = link.selectFirst(\"h3\");\n  if (h3 != null) {\n   let content = h3.text();\n   //移除 <h3> 标签\n   link.select(\"h3\").remove();\n   //创建一个新的<h3> 标签\n   let H3 = new Element(\"h3\").appendChild(new Element(\"a\").attr(\"href\", link.attr(\"href\")).text(content));\n    //新<h3> 插入到原来的位置\n    link.replaceWith(H3);\n  }\n}\n\nlet imgs = result.select(\"img\");\nfor (img of imgs) {\n img.replaceWith(new Element(\"span\").text(\"🖼️\"));\n }\n\nresult.select(\"#b_results>li\").before(\"<br><br>\");\n\n}\n\nlet tishi = `<h2>搜索词：<a href=\"${url1}\">${key}</a></h2><br>`;\n\ntishi+result.html();",
+    "sortNumber": 7,
+    "urlRule": "@js:\n`data:;base64,${java.base64Encode(key)},{'type':''}`"
+  },
+  {
+    "enabled": false,
+    "name": "❌bing词典",
+    "showRule": "//div[@class=\"hd_area\"]&&//div[@class=\"qdef\"]/ul&&//a[@id=\"crosstabid\"]&&//div[@id=\"crossid\"]&&//a[@id=\"homotabid\"]&&//div[@id=\"homoid\"]&&//a[@id=\"webtabid\"]&&//div[@class=\"def_fl\"]&&//div[@id=\"sen_bar\"]&&//div[@id=\"senDef\"]//span&&//div[@id=\"sentenceSeg\"]##更多释义|收起释义|更多例句筛选|收起例句筛选",
+    "sortNumber": 8,
+    "urlRule": "https://cn.bing.com/dict/search?q={{key}}&qs=ds&form=CM"
+  },
+  {
+    "enabled": false,
+    "name": "❌百度汉语",
+    "showRule": "@js:\n//版本号:1.0.3\n\nlet key = String(java.hexDecodeToString(result));\n\nlet url = `https://hanyuapp.baidu.com/dictapp/${key.length == 1 ? ('word/detail_getworddetail?wd=' + key) : ('swan/termdetail?wd=' + key)}&client=pc&lesson_from=xiaodu&${key.length == 1 ? ('smp_names=wordNewData1') : ('source_tag=2')}`;\n\ntry {\n    result = java.ajax(url+`,{\"headers\":{\"User-Agent\":\"${java.getWebViewUA()}\"}}`);\n    var aly = new JavaImporter(Packages.com.jayway.jsonpath);\n    with(aly) {\n        var rr = JsonPath.using(\n            Configuration.builder()\n            .options(Option.SUPPRESS_EXCEPTIONS).build()\n        ).parse(result);\n    }\n    let re = '';\n    let iV = rr.read('$.data.idiomVersion');\n    if (iV) {\n        //成语\n        let py = rr.read('$.data.pinyin');\n        let gs = rr.read('$.data.story[*]');\n        let df1 = rr.read('$.data.definitionInfo.definition');\n        let bb = rr.read('$.data.baobian');\n        let dm = rr.read('$.data.definitionInfo.detailMeans[*]');\n        dm = Array.from(dm).map(m => `${m.word}：${m.definition}`).join('<br>');\n        let cc = rr.read('$.data.chuChu[*]');\n        cc = Array.from(cc).map(m => `${m.citeOriginalText}--${m.dynasty!=''?(m.dynasty+'●'):''}${m.author!=''?(m.author+'●'):''}${m.source!=''?(m.source):''}${m.sourceChapter!=''?('-'+m.sourceChapter):''}`).join('<br>');\n        if (gs != '[]') gs = `<br><h3>成语故事</h3><br><p>${Array.from(gs).join('<br>')}</p>`;\n        else gs = '';\n        if (cc != '') cc = `<br><h3>出处</h3><br><p>${cc}</p>`;\n        re += `<br><h3>${py}</h3><br><h3>基本释义 ${bb!=''?('['+bb+']'):''}</h3><br><p>${df1}</p><br><p>${dm}</p>${gs}${cc}`;\n    } else {\n        let py = rr.read('$.data..comprehensiveDefinition[*].pinyin');\n        for (let i = 0; i < py.length; i++) {\n            re += `<br><h3>${py[i]}</h3>`;\n            let cx1 = rr.read('$.data..comprehensiveDefinition[' + i + '].basicDefinition[*]cixing');\n            let df1 = rr.read('$.data..comprehensiveDefinition[' + i + '].basicDefinition[*]definition');\n            for (let i = 0; i < df1.length; i++) {\n                if (!i) re += `<br><h3>基本释义</h3>`;\n                let ccx = Array.prototype.join.call(cx1[i], ',');\n                re += `<br><p>${(i + 1) + '、' + (ccx == '' ? '' : '[' + ccx + '] ') + df1[i]}</p>`;\n            }\n            let cx2 = rr.read('$.data..comprehensiveDefinition[' + i + '].detailDefinition[*]cixing');\n            let df2 = rr.read('$.data..comprehensiveDefinition[' + i + '].detailDefinition[*]definition');\n            for (let i = 0; i < df2.length; i++) {\n                if (!i) re += `<br><h3>详细释义</h3>`;\n                let ccx = Array.prototype.join.call(cx2[i], ',');\n                re += `<br><p>${(i + 1) + '、' + (ccx == '' ? '' : '[' + ccx + '] ') + df2[i]}</p>`;\n            }\n        }\n    }\n    let bd = '<br><br>百度汉语中没有这个词';\n    let xd = rr.read('$.data.baikeInfo..baikeMean');\n    if (xd != '[]') xd = `<br><b>${xd[0]}</b><br><br>`;\n    else xd = '';\n    if (re != '') re += '<br><br>';\n    if (re || xd) bd = re + xd;\n    `<h1><a href=\"https://hanyu.baidu.com/hanyu-page/term/detail?wd=${key}\">${key}</a>　</h1>${bd}`;\n\n} catch (e) {\n    \"出错啦：\" + e;\n}",
+    "sortNumber": 9,
+    "urlRule": "data:;base64,{{java.base64Encode(key)}},{\"type\":\"bd\"}"
+  },
+  {
+    "enabled": false,
+    "name": "❌百度百科",
+    "showRule": "class.body-wrapper@all",
+    "sortNumber": 10,
+    "urlRule": "https://baike.baidu.com/item/{{key}}"
+  },
+  {
+    "enabled": false,
+    "name": "✅有道CN",
+    "showRule": "@js:\n//版本号:1.0.0\nlet j = org.jsoup.Jsoup.parse(result);\nlet yw = j.select('#inputText').text();\nlet fy = j.select('#translateResult').text();\nresult = '原文：<br>'+yw+'<br>翻译：<br>'+fy;",
+    "sortNumber": 11,
+    "urlRule": "https://m.youdao.com/translate,{\n\"method\": \"POST\",\n\"headers\": {\n    \"User-Agent\": \"{{java.getWebViewUA()}}\"\n  },\n\"body\": \"inputtext={{key}}&type=AUTO\"\n}"
+  },
+  {
+    "enabled": true,
+    "name": "🔄有道EN",
+    "showRule": "//h2[@class=\"wordbook-js\"]&&\n//div[@class=\"trans-container\"]&&\n//a[@class=\"tab-current\"][1]&&\n//div[@id=\"tPETrans\"]&&\n//div[@id=\"authTrans❌\"]&&\n//div[@id=\"examples\"]//a[1]/span/text()&&\n//div[@id=\"bilingual\"]##在例句中比较|.*论文数据.*数据来源于.*|更多双语例句|详细内容|参考来源.*|- 引用次数.*|以上来源于.*",
+    "sortNumber": 12,
+    "urlRule": "http://dict.youdao.com/w/{{key}}/"
+  },
+  {
+    "enabled": false,
+    "name": "🔄有道FR",
+    "showRule": "//h2[@class=\"wordbook-js\"]&&\n//div[@id=\"wordGroup\"]&&\n//div[@id=\"examples\"]&&\n//div[@id=\"webTrans\"]##youdao|基于1个网页.*|更多双语例句|详细内容|以上来源于.*|.*展开.*|相关文章|百度.*|百科.*",
+    "sortNumber": 13,
+    "urlRule": "http://dict.youdao.com/w/fr/{{key}}/"
+  },
+  {
+    "enabled": false,
+    "name": "🔄有道JP",
+    "showRule": "//div[@class=\"trans-container\"]&&\n//div[@id=\"webTrans\"]&&\n//div[@id=\"examples\"]##youdao|基于1个网页.*|更多双语例句|详细内容|以上来源于.*",
+    "sortNumber": 14,
+    "urlRule": "http://dict.youdao.com/w/jap/{{key}}/"
+  },
+  {
+    "enabled": false,
+    "name": "🔄有道KO",
+    "showRule": "//div[@class=\"trans-container\"]&&\n//div[@id=\"wordGroup\"]&&\n//h2[@class=\"wordbook-js\"]&&\n//div[@id=\"examples\"]&&\n//div[@id=\"webTrans\"]##youdao|基于1个网页.*|更多双语例句|详细内容|以上来源于.*|.*展开.*|相关文章|百度.*|百科.*",
+    "sortNumber": 15,
+    "urlRule": "http://dict.youdao.com/w/ko/{{key}}/"
+  },
+  {
+    "enabled": true,
+    "name": "✅海词CN",
+    "showRule": "@js:var jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\"script,#header,#footer,#page-share,.mslide,.title,#dictHcBtn,#dictHcBtnTop,#dictHc,#dictHc,#dictHcSettingArea,#dictHcClosetip\").remove()\njsoup.select(\"#cy\").html()",
+    "sortNumber": 16,
+    "urlRule": "https://hanyu.dict.cn/{{key}}"
+  },
+  {
+    "enabled": true,
+    "name": "🔄海词EN",
+    "showRule": "tag.body@all",
+    "sortNumber": 17,
+    "urlRule": "https://apii.dict.cn/mini.php?q={{key}}"
+  },
+  {
+    "enabled": true,
+    "name": "🔄海词中英",
+    "showRule": ".main@html##.*词典定义.*学习型词典[\\s\\S]*",
+    "sortNumber": 18,
+    "urlRule": "http://dict.cn/search?q={{key}}"
+  },
+  {
+    "enabled": false,
+    "name": "✅海词+汉典@Yves",
+    "showRule": "@js:\nvar jsoup=org.jsoup.Jsoup.parse(result);\n\njsoup.select(\"script,.feedback-link,.google-auto-placed,.adsbygoogle,img,.xxjs-english,.citations-toggle-wrap\").remove();\n\njsoup.select(\".jbjs-item__eg-label\").forEach(function(el){\n    el.text(\"【例如】\");\n});\n\njsoup.select(\".xxjs-block-label--cit\").forEach(function(el){\n    el.text(\"【书证】\");\n});\n\njsoup.select(\".xxjs-block-label--syn\").forEach(function(el){\n    el.text(\"【近义词】\");\n});\n\njsoup.select(\".xxjs-block-label--ant\").forEach(function(el){\n    el.text(\"【反义词】\");\n});\n\njsoup.select(\".xxjs-citation__source,cite\").forEach(function(el){\n    el.text(\"——\"+el.text());\n});\n\nvar j=jsoup.select(\"#jbjs\");\nvar x=jsoup.select(\"#xxjs\");\nvar g=jsoup.select(\"#gyjs\");\nvar k=jsoup.select(\"#kxzd\");\nvar s=jsoup.select(\"#swjz\");\nvar r=\"\";\nif(j.size()>0)r+=j.html();\nif(x.size()>0)r+=x.html();\nif(g.size()>0)r+=g.html();\nif(k.size()>0)r+=k.html();\nif(s.size()>0)r+=s.html();\nr",
+    "sortNumber": 19,
+    "urlRule": "https://www.zdic.net/hans/{{key}}#hans简hant繁"
+  },
+  {
+    "enabled": false,
+    "name": "☑️象形字典",
+    "showRule": "@js:\nfunction Decode(data) {\t\t\t\t\t\n\t\t\treturn java.createSymmetricCrypto(\"DES/CBC/PKCS5Padding\", \"lztniubi\",\"13524689\").decryptStr(data);\t\t\n\t\t}\t\t\n\t\t$ = JSON.parse(Decode(result)).result;\t\t\n\t\tkey = java.encodeURI($.name,\"UTF-8\");\ncyurl = 'https://api.lianzhitong.com/api/v2/chengyu/list?word='+key;\ncydata = java.ajax(cyurl);\nx = JSON.parse(Decode(cydata));\ncy = [];\nfor(i in x){\n\ty = Number(i) + Number(1) +\". \"+ x[i] ;\n\tcy.push(y)\n\t}\n\t\nxjurl = `https://api.lianzhitong.com/res/xiangxing/${key}/${key}cihuifenlei.html`;\nxjdata = java.ajax(xjurl);\nxxurl = `https://api.lianzhitong.com/res/xiangxing/${key}/${key}ziyuanjiesshuo.html`;\nxxdata = java.ajax(xxurl);\nzjurl = 'https://api.lianzhitong.com/api/v2/xhzd/query?key=4&word='+key;\nzjdata = JSON.parse(Decode(java.ajax(zjurl))).result.xiangjie;\nzjhtml = String(zjdata.join(\"&nbsp;&emsp;\")).replace(/&nbsp;&emsp;&nbsp;&emsp;/g,\"<br>\");\n\nresult = '<div><h1>字：<b>'+$.name+'</b></h1><br>拼音：'+$.pinyin+' <br>笔画：'+$.bihua+' <br>部首： '+$.bushou+'<br>结构： '+$.jiegou +' <br>笔顺： '+$.bishun+'<br>五笔： '+$.wubi + ' <br>英语： '+$.english +'<br><br><h3>简释：</h3> '+ $.explain[0].content +'<br><br><h3>详释一： </h3>'+ zjhtml+'<br><br><h3>详释二： </h3>'+ xjdata+'<br><h3>象形：</h3> '+ xxdata +'<br></div>';",
+    "sortNumber": 20,
+    "urlRule": "https://api.lianzhitong.com/api/v2/zidian/word?appkey=2&word={{key}}"
+  },
+  {
+    "enabled": false,
+    "name": "❌新华字典",
+    "showRule": "@js:\nresult = result.toLowerCase();\nlet doc = org.jsoup.Jsoup.parse(result);\nlet html = \"\";\nlet title = doc.select(\"title\").first().text();\nlet key;\nlet matches = title.trim().match(/^(.*?)词语_\\1词组$/);\nif (matches) {\n    key = matches[1];\n    let cyList = doc.select(\".cizilist > li > a\");\n    if (cyList.size()) {\n        let url = \"\";\n        for (let i = 0; i < cyList.size(); i++) {\n            let ele = cyList.get(i);\n            if (ele.text().trim() == key.trim()) {\n                url = ele.attr(\"href\");\n                break;\n            }\n        }\n        html = java.ajax(url); // 二次请求\n    } else {\n        html = `\n        <center>\n          <h1>“<font color=\"red\">${key}</font>”：不存在该词语</h1>\n        </center>\n    `\n    }\n} else {\n    html = result;\n}\n\ndoc = org.jsoup.Jsoup.parse(html);\nlet myDict = doc.select(`\n  .jbjs,\n  .xxjs,\n  .cyjj,\n  .wljs\n`);\n\nmyDict.select(`\n    .zib-title,\n    .ptr,\n    .enbox,\n    .copyright,\n    .encs\n`)\n    .remove();\n\nmyDict.size() ? myDict : doc;",
+    "sortNumber": 21,
+    "urlRule": "@js:\nlet url;\nif(key.length === 1){\n  url = `https://zidian.gushici.net/search/zi.php?zi=${key}`\n}else{\n  url = `https://cidian.gushici.net/ciyu/${key}/`\n}\nurl"
+  },
+  {
+    "enabled": true,
+    "name": "✅汉语词典",
+    "showRule": "//div[@class=\"text-description\"]&&\n//div[@class=\"grap_contnet_item\"][1]&&\n//div[@class=\"grap_contnet_item\"][2]&&\n//div[@class=\"zaoju_article\"]##完善|haO86.com|查看更多",
+    "sortNumber": 22,
+    "urlRule": "https://m.hao86.com/ciyu_search/{{key}}/"
+  },
+  {
+    "enabled": true,
+    "name": "❌汉典",
+    "showRule": "@js:\nlet doc = org.jsoup.Jsoup.parse(result);\n\nlet myDict = new org.jsoup.select.Elements();\n\nmyDict.addAll(doc.select(`\n    .dictionaries > .zdict:first-of-type,\n    .dictionaries > #xxjs,\n    .dictionaries > #gyjs,\n    .dictionaries > #wljs\n`));\n\nmyDict.select(`\n    .zib-title,\n    .enbox,\n    script,\n    strong:contains(常用词语),\n    .type-xxjs,\n    .copyright\n`).remove();\n\nmyDict;",
+    "sortNumber": 23,
+    "urlRule": "https://www.zdic.net/hans/{{key}}#hans简hant繁"
+  },
+  {
+    "enabled": false,
+    "name": "✅漢典",
+    "showRule": "class.ciif noi zisong@html&&class.content definitions jnr@html&&class.content definitions xnr@html&&#gyjs@html&&#7BAD_2@html&&#7BAD_3@html&&#7BAD_5@html&&#wljs@html##百度百科",
+    "sortNumber": 24,
+    "urlRule": "https://www.zdic.net/hant/{{key}}#hans简hant繁"
+  },
+  {
+    "enabled": true,
+    "name": "☑️萌典國語",
+    "showRule": "@js:\nfunction renderToString(string, prefix) {\n    try {\n        let trim = str => String(str || '').replace(/`|~/g, \"\"),\n            json = JSON.parse(string),\n            searchKey = trim(json.t),\n            href = `https://www.moedict.tw/${prefix||\"\"}${searchKey}`,\n            searchBrowser = `<a href=\"${href}\">網頁打開</a>`,\n            html = [];\n        for (item of json.h) {\n            html.push(`<h1>${searchKey}</h1>`), item.p && html.push(`<span>[ ${item.p.replace(/（.*?）/,\"\")} ]</span>`);\n            if (item.d == null) continue;\n            for (define of item.d) {\n                html.push(\"<li>\"), define.f && html.push(`<span class=\"def\">${trim(define.f)}</span>`), Object.values(define).filter(v => v instanceof Array).forEach(array => array.forEach(ele => html.push(`<div>${trim(ele)}</div>`))), html.push(\"</li>\")\n            }\n        }\n        return html.join(\"\\n\") + searchBrowser\n    } catch (e) {\n        return `${string}\\n${e}`\n    }\n};\nrenderToString(result, \"\")",
+    "sortNumber": 25,
+    "urlRule": "https://www.moedict.tw/a/{{key}}.json"
+  },
+  {
+    "enabled": true,
+    "name": "✅萌典兩岸",
+    "showRule": "@js:\nfunction renderToString(string, prefix) {\n    try {\n        let trim = str => String(str || '').replace(/`|~/g, \"\"),\n            json = JSON.parse(string),\n            searchKey = trim(json.t),\n            href = `https://www.moedict.tw/${prefix||\"\"}${searchKey}`,\n            searchBrowser = `<a href=\"${href}\">網頁打開</a>`,\n            html = [];\n        for (item of json.h) {\n            html.push(`<h1>${searchKey}</h1>`), item.p && html.push(`<span>[ ${item.p.replace(/（.*?）/,\"\")} ]</span>`);\n            if (item.d == null) continue;\n            for (define of item.d) {\n                html.push(\"<li>\"), define.f && html.push(`<span class=\"def\">${trim(define.f)}</span>`), Object.values(define).filter(v => v instanceof Array).forEach(array => array.forEach(ele => html.push(`<div>${trim(ele)}</div>`))), html.push(\"</li>\")\n            }\n        }\n        return html.join(\"\\n\") + searchBrowser\n    } catch (e) {\n        return `${string}\\n${e}`\n    }\n};\nrenderToString(result, \"~\")",
+    "sortNumber": 26,
+    "urlRule": "https://www.moedict.tw/c/{{key}}.json"
+  }
+]
