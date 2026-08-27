@@ -2,7 +2,7 @@
   {
   "enabled": true,
   "name": "✅粵典v7",
-  "showRule": "//h1[1]&&\n'<br>'&&\n'粵拼: ' &&\n//span[@class=\"zi-pronunciation\"]&&\n'<br>'&&\n'詞性: ' && \n//tr[@class=\"zidin-pos\"]&&\n'<hr>'&&\n'解釋: ' && \n(//div[@class=\"zidin-explanation-item\"][.//span[@class=\"zi-item-lang\"]])&&\n'<br>'&&\n'用法: ' && \n(//div[@class=\"zi-details-phrase-item\"][.//span[@class=\"zi-item-lang\"]])&&\n'<hr>'&&\n'例句: ' && \n(//div[@class=\"zi-details-example-item\"][.//span[@class=\"zi-item-lang\"]])##(詞性：)",
+  "showRule": "//h1[1]&&\n'<br>' &&\n'粵拼: ' &&\n//span[@class=\"zi-pronunciation\"]&&\n'<br>' &&\n'詞性: ' &&\n//tr[@class=\"zidin-pos\"]&&\n'<hr>' &&\n'解釋: ' &&\n( //div[@class=\"zidin-explanation-item\"][.//span[@class=\"zi-item-lang\"]])&&\n'<hr>' &&\n'例子: ' &&\n( //div[@class=\"zi-details-phrase-item\"][.//span[@class=\"zi-item-lang\"]])&&\n( //div[@class=\"zi-details-example-item\"][.//span[@class=\"zi-item-lang\"]])##(詞性：)|(呢啲圖係.*)",
   "sortNumber": 0,
   "urlRule": "https://words.hk/zidin/{{key}}##粵拼+詞性+解釋+用法+例句"
   },
