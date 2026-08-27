@@ -1,38 +1,10 @@
 [
   {
-    "enabled": true,
-    "name": "粵典v5",
-    "showRule": "//h1&& \n\n//span[@class=\"zi-pronunciation\"]&& \n\n//tr[@class=\"zidin-pos\"]//span&& \n\n//div[@class=\"zidin-explanation-item\"]&&\n\n(//div[@class=\"zidin-explanation-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(广东话)\"]])[1]&& \n\n(//div[@class=\"zi-details-example-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(粵)\"]])[1]&&\n\n//span[@class=\"zi-item-example-pronunciation small\"]##",
-    "sortNumber": 1,
-    "urlRule": "https://words.hk/zidin/{{key}}"
-  },
-  {
-    "enabled": true,
-    "name": "❌粵典v4",
-    "showRule": "@js: (function(){var t=document.querySelector('h1');var title=t?t.innerText:'';var p=document.querySelector('span.zi-pronunciation');var pron=p?p.innerText:'';var po=document.querySelector('tr.zidin-pos span');var pos=po?po.innerText:'';var expl='';var items=document.querySelectorAll('.zidin-explanation-item');for(var i=0;i<items.length;i++){var item=items[i];var langs=item.querySelectorAll('.zi-item-lang');for(var j=0;j<langs.length;j++){if(langs[j].innerText.indexOf('粤')!==-1||langs[j].innerText.indexOf('粵')!==-1){var es=item.querySelector('.zi-item-explanation');if(es){expl=es.innerText.trim();}break;}}if(expl)break;}var exmp='';var exItems=document.querySelectorAll('.zidin-details-example-item');for(var i=0;i<exItems.length;i++){var item=exItems[i];var langs=item.querySelectorAll('.zi-item-lang');for(var j=0;j<langs.length;j++){if(langs[j].innerText.indexOf('粵')!==-1||langs[j].innerText.indexOf('粤')!==-1){var text=item.innerText;text=text.replace(/[（(][粵粤英][）)]\\s*/g,'');exmp=text.trim();break;}}if(exmp)break;}return '標題：'+title+'\\n讀音：'+pron+'\\n詞性：'+pos+'\\n\\n解釋：\\n'+expl+'\\n\\n例句：\\n'+exmp;})()",
-    "sortNumber": 2,
-    "urlRule": "https://words.hk/zidin/{{key}}"
-  },
-  {
-    "enabled": true,
-    "name": "✅粵典v3",
-    "showRule": "//h1&& \n//span[@class=\"zi-pronunciation\"]&& \n//tr[@class=\"zidin-pos\"]//span&& \n(//div[@class=\"zidin-explanation-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(广东话)\"]])[1]&& \n(//div[@class=\"zi-details-example-item\"][.//span[@class=\"zi-item-lang\" and text()=\"(粵)\"]])[1]",
-    "sortNumber": 3,
-    "urlRule": "https://words.hk/zidin/{{key}}"
-  },
-  {
-    "enabled": false,
-    "name": "❌粵典v2",
-    "showRule": "//span[@class=\"zi-pronunciation\"]&&\n//tr[@class=\"zidin-pos\"]&&\n//div[@class=\"zidin-explanation-item\"]&&\n//Span[@class=\"zi-item-lang\"]&&\n//div[@class=\"zidin-details-example-heading\"]&&\n//div[@class=\"zidin-details-example-item\"]&&\n//Span[@class=\"zi-item-lang\"]&&\n//span[@class=\"zi-item-example-pronunciation small\"]",
-    "sortNumber": 4,
-    "urlRule": "https://words.hk/zidin/{{key}}"
-  },
-  {
-    "enabled": true,
-    "name": "☑️粵典v1",
-    "showRule": "//h1&&\n//table[@class=\"zi-details table table-striped\"]##版權.*|部份類近詞彙.*|AI圖.*|呢啲圖.*|(.genai).*|\\n\\n|",
-    "sortNumber": 5,
-    "urlRule": "https://words.hk/zidin/{{key}}"
+  "enabled": true,
+  "name": "✅粵典v7",
+  "showRule": "//h1[1]&&\n'粵拼：' &&\n//span[@class=\"zi-pronunciation\"]&&\n'<hr>'&&\n//tr[@class=\"zidin-pos\"]&&\n'<br>'&&\n'<br>'&&\n'解釋：' && \n(//div[@class=\"zidin-explanation-item\"][.//span[@class=\"zi-item-lang\"]])&&\n'<br>'&&\n'配詞/用法：' && \n(//div[@class=\"zi-details-phrase-item\"][.//span[@class=\"zi-item-lang\"]])&&\n'<hr>'&&\n'例句：' && \n(//div[@class=\"zi-details-example-item\"][.//span[@class=\"zi-item-lang\"]])",
+  "sortNumber": 0,
+  "urlRule": "https://words.hk/zidin/{{key}}##粵拼+詞性+解釋+用法+例句"
   },
   {
     "enabled": false,
