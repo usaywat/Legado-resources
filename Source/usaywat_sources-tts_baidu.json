@@ -6,13 +6,13 @@
     "header": "",
     "id": 222200000000,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—基础•资讯—度小美<标准女主播>",
+    "name": "百度—度小美•基础—资讯<标准女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=0&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=0&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -21,13 +21,13 @@
     "header": "",
     "id": 222200000001,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—基础•助手—度小宇<亲切男声>",
+    "name": "百度—度小宇•基础—对话<亲切男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=1&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=1&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -36,13 +36,13 @@
     "header": "",
     "id": 222200000003,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—基础•小说—度逍遥<情感男声>",
+    "name": "百度—度逍遥•基础—小说<情感男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=3&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=3&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -51,13 +51,13 @@
     "header": "",
     "id": 222200000004,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—基础•小说—度丫丫<童声>",
+    "name": "百度—度丫丫•基础—小说<童声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -66,88 +66,13 @@
     "header": "",
     "id": 222200000005,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—精品•资讯—度小娇<成熟女主播>",
+    "name": "百度—度小娇•精品—资讯<成熟女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
-  },
-  {
-    "concurrentRate": "0",
-    "contentType": "",
-    "enabledCookieJar": false,
-    "header": "",
-    "id": 222200000006,
-    "jsLib": "",
-    "lastUpdateTime": 20260828112024,
-    "loginCheckJs": "",
-    "loginUi": "",
-    "loginUrl": "",
-    "name": "百度—精品•资讯—度教授<儒雅男声>",
-    "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
-  },
-  {
-    "concurrentRate": "0",
-    "contentType": "",
-    "enabledCookieJar": false,
-    "header": "",
-    "id": 222200000008,
-    "jsLib": "",
-    "lastUpdateTime": 20260828112024,
-    "loginCheckJs": "",
-    "loginUi": "",
-    "loginUrl": "",
-    "name": "百度—精品•资讯—度葛平<磁性男声>",
-    "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=8&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
-  },
-  {
-    "concurrentRate": "0",
-    "contentType": "",
-    "enabledCookieJar": false,
-    "header": "",
-    "id": 222200000009,
-    "jsLib": "",
-    "lastUpdateTime": 20260828112024,
-    "loginCheckJs": "",
-    "loginUi": "",
-    "loginUrl": "",
-    "name": "百度—精品•资讯—度播音<标准播音男声>",
-    "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=9&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
-  },
-  {
-    "concurrentRate": "0",
-    "contentType": "",
-    "enabledCookieJar": false,
-    "header": "",
-    "id": 222200000010,
-    "jsLib": "",
-    "lastUpdateTime": 20260828112024,
-    "loginCheckJs": "",
-    "loginUi": "",
-    "loginUrl": "",
-    "name": "百度—精品•资讯—度京腔<京腔男声>",
-    "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=10&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
-  },
-  {
-    "concurrentRate": "0",
-    "contentType": "",
-    "enabledCookieJar": false,
-    "header": "",
-    "id": 222200000011,
-    "jsLib": "",
-    "lastUpdateTime": 20260828112024,
-    "loginCheckJs": "",
-    "loginUi": "",
-    "loginUrl": "",
-    "name": "百度—精品•资讯—度大叔<成熟男声>",
-    "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=11&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -156,13 +81,13 @@
     "header": "",
     "id": 222200000103,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—精品•助手—度米朵<可爱童声>",
+    "name": "百度—度米朵•精品—对话<可爱童声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=103&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=103&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -171,13 +96,13 @@
     "header": "",
     "id": 222200000106,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—精品•资讯—度博文<专业男主播>",
+    "name": "百度—度博文•精品—资讯<专业男播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=106&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=106&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -186,13 +111,13 @@
     "header": "",
     "id": 222200000110,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—精品•资讯—度小童<童声主播>",
+    "name": "百度—度小童•精品—资讯<童声主播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=110&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=110&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -201,13 +126,13 @@
     "header": "",
     "id": 222200000111,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—精品•小说—度小萌<软萌妹子>",
+    "name": "百度—度小萌•精品—小说<软萌妹子>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=111&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=111&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -216,13 +141,13 @@
     "header": "",
     "id": 222200004003,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度逍遥<情感男声>",
+    "name": "百度—度逍遥•臻品—小说<情感男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4003&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4003&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -231,13 +156,13 @@
     "header": "",
     "id": 222200004007,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度小台<台湾女声>",
+    "name": "百度—度小台•大模型—方言<台湾女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4007&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4007&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -246,13 +171,13 @@
     "header": "",
     "id": 222200004100,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度小雯<活力女主播>",
+    "name": "百度—度小雯•臻品—资讯<活力女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4100&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4100&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -261,13 +186,13 @@
     "header": "",
     "id": 222200004103,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•助手—度米朵<可爱女声>",
+    "name": "百度—度米朵•臻品—对话<可爱女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4103&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4103&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -276,13 +201,13 @@
     "header": "",
     "id": 222200004105,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•助手—度灵儿<清激女声>",
+    "name": "百度—度灵儿•臻品—对话<清激女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4105&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4105&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -291,13 +216,13 @@
     "header": "",
     "id": 222200004106,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度博文<专业男主播>",
+    "name": "百度—度博文•臻品—资讯<专业男播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4106&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4106&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -306,13 +231,13 @@
     "header": "",
     "id": 222200004114,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—阿龙<说书男声>",
+    "name": "百度—阿龙•臻品—配音<说书男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4114&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4114&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -321,13 +246,13 @@
     "header": "",
     "id": 222200004115,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度小贤<电台男主播>",
+    "name": "百度—度小贤•臻品—资讯<电台男播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4115&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4115&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -336,13 +261,13 @@
     "header": "",
     "id": 222200004117,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•助手—度小乔<活泼女声>",
+    "name": "百度—度小乔•臻品—对话<活泼女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4117&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4117&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -351,13 +276,13 @@
     "header": "",
     "id": 222200004119,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•助手—度小鹿<甜美女声>",
+    "name": "百度—度小鹿•臻品—对话<甜美女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4119&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4119&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -366,13 +291,13 @@
     "header": "",
     "id": 222200004129,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度小彦<知识男主播>",
+    "name": "百度—度小彦•臻品—资讯<知识男播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4129&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4129&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -381,13 +306,13 @@
     "header": "",
     "id": 222200004132,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度阿闽<闽南男声>",
+    "name": "百度—度阿闽•大模型—方言<闽南男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4132&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4132&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -396,13 +321,13 @@
     "header": "",
     "id": 222200004134,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度阿锦<东北女声>",
+    "name": "百度—度阿锦•大模型—方言<东北女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4134&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4134&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -411,13 +336,13 @@
     "header": "",
     "id": 222200004139,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度小蓉<四川女声>",
+    "name": "百度—度小蓉•大模型—方言<四川女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4139&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4139&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -426,13 +351,13 @@
     "header": "",
     "id": 222200004140,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度小新<专业女主播>",
+    "name": "百度—度小新•臻品—资讯<专业女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4140&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4140&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -441,13 +366,13 @@
     "header": "",
     "id": 222200004141,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—度婉婉<甜美女声>",
+    "name": "百度—度婉婉•臻品—配音<甜美女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4141&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4141&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -456,13 +381,13 @@
     "header": "",
     "id": 222200004143,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—度清风<配音男声>",
+    "name": "百度—度清风•臻品—配音<配音男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4143&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4143&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -471,13 +396,13 @@
     "header": "",
     "id": 222200004144,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—度姗姗<娱乐女声>",
+    "name": "百度—度姗姗•臻品—配音<娱乐女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4144&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4144&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -486,13 +411,13 @@
     "header": "",
     "id": 222200004146,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人单情感—度禧禧<阳光女声>",
+    "name": "百度—度禧禧•超拟人—单情感<阳光女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4146&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4146&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -501,13 +426,13 @@
     "header": "",
     "id": 222200004147,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—度云朵<可爱童声>",
+    "name": "百度—度云朵•臻品—配音<可爱童声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4147&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4147&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -516,13 +441,13 @@
     "header": "",
     "id": 222200004148,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度小夏<甜美女声>",
+    "name": "百度—度小夏•臻品—小说<甜美女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4148&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4148&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -531,13 +456,13 @@
     "header": "",
     "id": 222200004149,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—度星河<广告男声>",
+    "name": "百度—度星河•臻品—配音<广告男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4149&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4149&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -546,13 +471,13 @@
     "header": "",
     "id": 222200004150,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度湘玉<陕西女声>",
+    "name": "百度—度湘玉•大模型—方言<陕西女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4150&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4150&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -561,13 +486,13 @@
     "header": "",
     "id": 222200004154,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度老崔<北京男声>",
+    "name": "百度—度老崔•大模型—方言<北京男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4154&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4154&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -576,13 +501,13 @@
     "header": "",
     "id": 222200004156,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人单情感—度言浩<年轻男声>",
+    "name": "百度—度言浩•超拟人—单情感<年轻男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4156&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4156&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -591,13 +516,13 @@
     "header": "",
     "id": 222200004157,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人单情感—度言静<明亮女声>",
+    "name": "百度—度言静•超拟人—单情感<明亮女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4157&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4157&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -606,13 +531,13 @@
     "header": "",
     "id": 222200004164,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度阿肯<主播男声>",
+    "name": "百度—度阿肯•臻品—资讯<主播男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4164&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4164&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -621,13 +546,13 @@
     "header": "",
     "id": 222200004172,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度筱林<天津女声>",
+    "name": "百度—度筱林•大模型—方言<天津女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4172&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4172&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -636,13 +561,13 @@
     "header": "",
     "id": 222200004176,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度有为<磁性男声>",
+    "name": "百度—度有为•臻品—资讯<磁性男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4176&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4176&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -651,13 +576,13 @@
     "header": "",
     "id": 222200004179,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人单情感—度泽言<温暖男声>",
+    "name": "百度—度泽言•超拟人—单情感<温暖男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4179&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4179&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -666,13 +591,13 @@
     "header": "",
     "id": 222200004189,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人多情感—度涵竹<开朗女声>",
+    "name": "百度—度涵竹•超拟人—多情感<开朗女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4189&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4189&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -681,13 +606,13 @@
     "header": "",
     "id": 222200004192,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•助手—度青川<温柔男声>",
+    "name": "百度—度青川•臻品—对话<温柔男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4192&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4192&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -696,13 +621,13 @@
     "header": "",
     "id": 222200004193,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人多情感—度泽言<开朗男声>",
+    "name": "百度—度泽言•超拟人—多情感<开朗男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4193&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4193&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -711,13 +636,13 @@
     "header": "",
     "id": 222200004194,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人多情感—度嫣然<活泼女声>",
+    "name": "百度—度嫣然•超拟人—多情感<活泼女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4194&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4194&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -726,13 +651,13 @@
     "header": "",
     "id": 222200004195,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人多情感—度怀安<磁性男声>",
+    "name": "百度—度怀安•超拟人—多情感<磁性男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4195&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4195&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -741,13 +666,13 @@
     "header": "",
     "id": 222200004196,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人多情感—度清影<甜美女声>",
+    "name": "百度—度清影•超拟人—多情感<甜美女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4196&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4196&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -756,13 +681,13 @@
     "header": "",
     "id": 222200004197,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人多情感—度沁遥<知性女声>",
+    "name": "百度—度沁遥•超拟人—多情感<知性女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4197&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4197&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -771,13 +696,13 @@
     "header": "",
     "id": 222200004206,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—度博文<综艺男声>",
+    "name": "百度—度博文•臻品—配音<综艺男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4206&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4206&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -786,13 +711,13 @@
     "header": "",
     "id": 222200004226,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—南方<电台女主播>",
+    "name": "百度—南方•臻品—资讯<电台女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4226&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4226&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -801,13 +726,13 @@
     "header": "",
     "id": 222200004254,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—度小清<广告女声>",
+    "name": "百度—度小清•臻品—配音<广告女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4254&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4254&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -816,13 +741,13 @@
     "header": "",
     "id": 222200004257,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—四川小哥<四川男声>",
+    "name": "百度—四川小哥•大模型—方言<四川男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4257&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4257&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -831,13 +756,13 @@
     "header": "",
     "id": 222200004259,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度小新<播音女声>",
+    "name": "百度—度小新•臻品—资讯<播音女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4259&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4259&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -846,13 +771,13 @@
     "header": "",
     "id": 222200004277,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•配音—西贝<脱口秀女声>",
+    "name": "百度—西贝•臻品—配音<脱口秀女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4277&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4277&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -861,13 +786,13 @@
     "header": "",
     "id": 222200004278,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度小贝<知识女主播>",
+    "name": "百度—度小贝•臻品—资讯<知识女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4278&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4278&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -876,13 +801,13 @@
     "header": "",
     "id": 222200004288,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•助手—度晴岚<甜美女声>",
+    "name": "百度—度晴岚•臻品—对话<甜美女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4288&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=4288&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -891,13 +816,13 @@
     "header": "",
     "id": 222200005003,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—精品•小说—度逍遥<情感男声>",
+    "name": "百度—度逍遥•精品—小说<情感男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5003&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5003&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -906,13 +831,13 @@
     "header": "",
     "id": 222200005118,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—精品•助手—度小鹿<甜美女声>",
+    "name": "百度—度小鹿•精品—对话<甜美女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5118&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5118&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -921,13 +846,13 @@
     "header": "",
     "id": 222200005147,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度常盈<电台女主播>",
+    "name": "百度—度常盈•臻品—资讯<电台女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5147&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5147&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -936,13 +861,13 @@
     "header": "",
     "id": 222200005153,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度常悦<民生女主播>",
+    "name": "百度—度常悦•臻品—资讯<民生女播>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5153&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5153&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -951,13 +876,13 @@
     "header": "",
     "id": 222200005971,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度皮特<老外男声>",
+    "name": "百度—度皮特•臻品—资讯<老外男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5971&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5971&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -966,13 +891,13 @@
     "header": "",
     "id": 222200005976,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•资讯—度小皮<萌娃童声>",
+    "name": "百度—度小皮•臻品—资讯<萌娃童声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5976&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5976&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -981,13 +906,13 @@
     "header": "",
     "id": 222200005977,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—台媒女声<台湾女声>",
+    "name": "百度—台媒女声•大模型—方言<台湾女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5977&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5977&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -996,13 +921,13 @@
     "header": "",
     "id": 222200005980,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度阿花<上海女声>",
+    "name": "百度—度阿花•大模型—方言<上海女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5980&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=5980&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1011,13 +936,13 @@
     "header": "",
     "id": 222200006205,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度悠然<旁白男声>",
+    "name": "百度—度悠然•臻品—小说<旁白男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6205&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6205&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1026,13 +951,13 @@
     "header": "",
     "id": 222200006221,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度云萱<旁白女声>",
+    "name": "百度—度云萱•臻品—小说<旁白女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6221&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6221&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1041,13 +966,13 @@
     "header": "",
     "id": 222200006543,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度雨萌<邻家女孩>",
+    "name": "百度—度雨萌•臻品—小说<邻家女孩>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6543&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6543&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1056,13 +981,13 @@
     "header": "",
     "id": 222200006546,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度清豪<逍遥侠客>",
+    "name": "百度—度清豪•臻品—小说<逍遥侠客>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6546&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6546&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1071,13 +996,13 @@
     "header": "",
     "id": 222200006561,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•助手—度小乐<可爱童声>",
+    "name": "百度—度小乐•臻品—对话<可爱童声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6561&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6561&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1086,13 +1011,13 @@
     "header": "",
     "id": 222200006562,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度雨楠<元气少女>",
+    "name": "百度—度雨楠•臻品—小说<元气少女>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6562&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6562&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1101,13 +1026,13 @@
     "header": "",
     "id": 222200006567,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•超拟人单情感—度小柔<温柔女声>",
+    "name": "百度—度小柔•超拟人—单情感<温柔女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6567&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6567&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1116,13 +1041,13 @@
     "header": "",
     "id": 222200006602,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度清柔<温柔男神>",
+    "name": "百度—度清柔•臻品—小说<温柔男神>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6602&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6602&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1131,13 +1056,13 @@
     "header": "",
     "id": 222200006644,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度书宁<亲和女声>",
+    "name": "百度—度书宁•臻品—小说<亲和女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6644&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6644&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1146,13 +1071,13 @@
     "header": "",
     "id": 222200006746,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度书道<沉稳男声>",
+    "name": "百度—度书道•臻品—小说<沉稳男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6746&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6746&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1161,13 +1086,13 @@
     "header": "",
     "id": 222200006747,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度书古<情感男声>",
+    "name": "百度—度书古•臻品—小说<情感男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6747&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6747&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1176,13 +1101,13 @@
     "header": "",
     "id": 222200006748,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—臻品•小说—度书严<沉稳男声>",
+    "name": "百度—度书严•臻品—小说<沉稳男声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6748&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=6748&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1191,13 +1116,13 @@
     "header": "",
     "id": 222200020100,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度小粤<粤语女声>",
+    "name": "百度—度小粤•大模型—方言<粤语女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=20100&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=20100&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   },
   {
     "concurrentRate": "0",
@@ -1206,12 +1131,12 @@
     "header": "",
     "id": 222200020101,
     "jsLib": "",
-    "lastUpdateTime": 20260828112024,
+    "lastUpdateTime": 20260901063028,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
-    "name": "百度—大模型•方言—度晓芸<粤语女声>",
+    "name": "百度—度晓芸•大模型—方言<粤语女声>",
     "pauseDuration": 0,
-    "url": "http://tts.baidu.com/text2audio,{\"method\":\"POST\",\"body\":\"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=20101&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"}"
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=20101&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
   }
 ]
