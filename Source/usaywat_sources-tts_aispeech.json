@@ -1,0 +1,576 @@
+[
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000001,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——安宁♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=aningfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000002,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——安宁♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=aningf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000003,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——贝壳♀️精品（女童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xbekef&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000004,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——Brett♂️精品（英语）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=brettmp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000005,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——初阳♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=cyangfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000006,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——初阳♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=cyangf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000007,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——翠花♀️精品（东北话）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xjingf_cdb&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000008,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——大瑶♀️精品（山东话）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=dayaof_csd&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000009,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——芳芳♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gdfanfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000010,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——方方♂️精品（男童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gdfanf_natong&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000011,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——方方♂️标准（男童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gdfanf_boy&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000012,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——风吟♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=feyinfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000013,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——风吟♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=feyinf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000014,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——风吟♀️标准（闽南）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=qfyanf_cmn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000015,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——纲叔♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gdgmfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000016,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——纲叔♂️传统",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gdgm&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000017,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——葛爷♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=geyoump&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000018,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——葛爷♂️传统",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=geyou&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000019,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——何春♀️标准（粤语）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=hchunf_ctn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000020,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——季老师♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=jlshimp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000021,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——晶晶♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=jjingfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000022,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——晶晶♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=jjingf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000023,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——绝音♀️标准（鬼故）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=juyinf_guigushi&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000024,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——考拉♀️标准（清纯）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=kaolaf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000025,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——考拉♂️标准（电台）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=kaolam_diantai&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000026,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——蓝雨♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lanyuf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000027,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——璃璃♀️精品（娱播）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lili1f_yubo&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000028,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——璃璃♀️标准（电台）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lili1f_diantai&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000029,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——璃璃♀️标准（商务）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lili1f_shangwu&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000030,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——连连♂️精品（男童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lzliafp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000031,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——连连♂️传统（男童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lzliaf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000032,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——连连♂️标准（男童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lzliafa&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000033,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——零八♀️精品（清新）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=linbafp_qingxin&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000034,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——零八♀️标准（高冷）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=linbaf_gaoleng&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000035,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——零八♀️标准（清新）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=linbaf_qingxin&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000036,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——麻豆♀️精品（温柔）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=madoufp_wenrou&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000037,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——麻豆♀️精品（娱播）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=madoufp_yubo&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000038,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——木兰♀️精品（河南话）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xizhuf_cyu&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000039,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——胖胖♀️精品（四川话）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=ppangf_csn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000040,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——秋木♂️精品（故事）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=qiumum_0gushi&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000041,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——然然♀️传统（萝莉）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=qianranf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000042,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——婷婷♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xmguof&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000043,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——堂堂♂️精品（男童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=tangtang_boyfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000044,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——堂堂♂️标准（男童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=boy&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000045,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——文卿♀️精品（四川话）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=wqingf_csn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000046,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小浩♀️标准（客服）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lucyfa&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000047,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小江♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=wjianm_xsheng&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000048,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小洁♀️标准（清亮）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=smjief&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000049,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小静♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xjingfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000050,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小静♀️标准（飘逸）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xjingf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000051,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小静♀️标准（故事）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xjingf_gushi&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000052,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小军♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xijunma&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000053,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小军♂️传统",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xijunm&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000054,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小兰♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gqlanfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000055,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小兰♀️标准（温柔）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=gqlanf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000056,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小美♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=juan1f&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000057,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小咪♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xmamif&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000058,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小妮♀️标准（邻家）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=hyanifa&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000059,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小妮♀️传统（邻家）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=hyanif&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000060,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小睿♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=tzruimp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000061,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小九♀️精品（客服）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xijiufp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000062,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小佚♀️传统（平和）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=anonyf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000063,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小妖♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xiyaof&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000064,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小妖♀️标准（清新）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xiyaof_qingxin&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000065,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——小妖♀️标准（老师）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xiyaof_laoshi&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000066,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——晓健♀️精品（粤语）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=lunaif_ctn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000067,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——行者♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xizhefp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000068,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——行者♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=xizhef&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000069,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——星仔♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zxcmp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000070,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——星仔♂️传统",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zxcm&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000071,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——杨阿姨♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=yaayif&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000072,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——瑶瑶♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=luyaof&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000073,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——叶子♀️标准（上海话）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=yezi1f_csh&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000074,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——佚佚♀️传统（女童）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=anonyg&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000075,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——俞凱♂️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=yukaimp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000076,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——俞凱♂️标准（磁性）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=yukaim_all&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000077,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——志玲♀️精品",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zhilingfp&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000078,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——志玲♀️精品（欢快）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zhilingfp_huankuai&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000079,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——志玲♀️标准",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zhilingfa&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000080,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——志玲♀️传统",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zhilingf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000081,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——株儿♀️传统",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zzherf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  },
+  {
+    "enabledCookieJar": false,
+    "id": 1000000000082,
+    "lastUpdateTime": 20260829230105,
+    "name": "思必驰——砖砖♀️标准（故事）",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=zzhuaf&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=0.9&volume=100&audioType=wav"
+  }
+]
