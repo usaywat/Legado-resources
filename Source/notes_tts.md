@@ -1,4 +1,4 @@
-TTS源的研究筆記：
+#TTS源的研究筆記：
 
 「Legado」
 id：必須填寫（最好使用10位數以上）
@@ -54,13 +54,15 @@ audioType：編碼（mp3/wav）
 }
 
 「百度」→比較自然，好用，會跳段。
+tex：text（最好一次不超過200字；JavaScript中可用encodeURIComponent()处理）
 lan：語言（zh=普通話、cte=粵語、en=美式英語、uk=英式英語）
 spd：語速（0-15，預設5）→有人說1-9
 vol：音量（基礎0-9，精品0-15，預設5，最小0）
 pit：音調（0-15，預設5）
+le：字集編碼（UTF-8）
 url：接口（出錯可換 tsn↔tts 或者 http↔https）
 pdt：（出錯可換11/12/30/31/160/211/220/232/301/505）
-aue：編碼（3=mp3-16k/24k格式、 4=pcm-16k/24k、5=pcm-8k、6=wav（內容同pcm-16k/24k）; 出錯可以確認content-type是否填寫了音頻編碼， 必須和aue數值對應的內容格式一致，最好直接把content-type刪掉留空。）
+aue：音頻編碼（3=mp3-16k/24k格式、 4=pcm-16k/24k、5=pcm-8k、6=wav（內容同pcm-16k/24k）; 出錯可以確認content-type是否填寫了音頻編碼， 必須和aue數值對應的內容格式一致，最好直接把content-type刪掉留空。）
 emo：情緒（neutral=中性、開心=happy、down=悲傷、angry=憤怒、surprise=驚訝、fear=恐懼，留空預設中性語氣；僅限指定音色支援情感合成，而且『超拟人多情感音色』能自動匹配情感無需人手設定，但不同音色支持的情感範圍存在不同。意思是，emo數值可以不調。）
 per：音色（詳情：ai.baidu.com/ai-doc/SPEECH/Rluv3uq3d ）
 ↓
