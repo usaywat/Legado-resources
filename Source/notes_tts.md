@@ -54,7 +54,8 @@ audioType：編碼（mp3/wav）
 }
 
 「百度」→比較自然，好用，會跳段。
-tex：text（最好一次不超過200字；JavaScript中可用encodeURIComponent()处理）
+tex：text（最好一次不超過200字；JavaScript中可用encodeURIComponent()編碼，一次就行）
+cuid：標識（預設baike，可以隨便生成，失效或限流就換一個）
 lan：語言（zh=普通話、cte=粵語、en=美式英語、uk=英式英語）
 spd：語速（0-15，預設5）→有人說1-9
 vol：音量（基礎0-9，精品0-15，預設5，最小0）
