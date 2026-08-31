@@ -14,6 +14,7 @@ usaywat_sources-image|圖像源
 usaywat_sources-novel|文字源
 usaywat_sources-subscribe|訂閲源
 usaywat_sources-tts|朗讀源
+usaywat_sources-tts_edge|朗讀源|82
 usaywat_sources-video|影片源
 usaywat_theme|主題
 usaywat_theme-pkg|主題包
