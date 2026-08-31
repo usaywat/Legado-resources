@@ -3,7 +3,7 @@
 「Legado」
 id：必須填寫（最好使用10位數以上）
 lastupdatetime：最後更新時間（格式最好是YYYYMMDDHHMMSS，但隨機生成也行）
-paragraphpause：換段停頓（0-10000毫秒）
+paragraphpause：換段停頓（0-10000毫秒，250=微、500=小、750=中、1000=大）
 
 「搜狗」→毫無反應，研究中。
 
