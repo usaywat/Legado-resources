@@ -53,16 +53,16 @@ audioType：編碼（mp3/wav）
   "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=音色&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=語速&volume=音量&audioType=格式"
 }
 
-「百度」→比較自然，好用，會跳段。
-(tex)t：文字（最好一次不超過200字；JavaScript中可用encodeURIComponent()編碼，一次就行）
-cuid：標識（預設baike，可以隨便生成，失效或限流就換一個）
+「百度」→比較自然，好用，會跳段（例：特殊符號/替換規則/複雜正文/過長段落/不支持語言/語速過快/pdt失效）。
+(tex)t：文字（最好不超過200字；JavaScript中可用encodeURIComponent()編碼，一次也行，兩次包含更多字符）
+cuid：標識（預設baidu_speech_demo，可換baike，失效或限流可以隨機生成或者自訂填寫。）
 lan：語言（zh=普通話、cte=粵語、en=美式英語、uk=英式英語）
-spd：語速（0-15，預設5）→有人說1-9
+spd：語速（0-15，預設5）
 vol：音量（基礎0-9，精品0-15，預設5，最小0）
 pit：音調（0-15，預設5）
 le：字集編碼（UTF-8）
-url：接口（出錯可換 tsn↔tts 或者 http↔https）
-pdt：（出錯可換11/12/30/31/160/211/220/232/301/505）
+url：接口（預設tts，出錯可換tsn，反之亦可）
+pdt：產線（預設301，遠端服務引擎決定音質、技術，出錯可換 1<內測>/5/11/12/15/30/31/58/160<基礎>/211/220<基礎>/221<方言>/232/301<通用>/311<臻品>/320/505<通用>。）
 aue：音頻編碼（3=mp3-16k/24k格式、 4=pcm-16k/24k、5=pcm-8k、6=wav（內容同pcm-16k/24k）; 出錯可以確認content-type是否填寫了音頻編碼， 必須和aue數值對應的內容格式一致，最好直接把content-type刪掉留空。）
 emo：情緒（neutral=中性、開心=happy、down=悲傷、angry=憤怒、surprise=驚訝、fear=恐懼，留空預設中性語氣；僅限指定音色支援情感合成，而且『超拟人多情感音色』能自動匹配情感無需人手設定，但不同音色支持的情感範圍存在不同。意思是，emo數值可以不調。）
 per：音色（詳情：ai.baidu.com/ai-doc/SPEECH/Rluv3uq3d ）
