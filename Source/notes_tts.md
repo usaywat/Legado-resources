@@ -54,7 +54,7 @@ audioType：編碼（mp3/wav）
 }
 
 「百度」→比較自然，好用，會跳段。
-tex：text（最好一次不超過200字；JavaScript中可用encodeURIComponent()編碼，一次就行）
+(tex)t：文字（最好一次不超過200字；JavaScript中可用encodeURIComponent()編碼，一次就行）
 cuid：標識（預設baike，可以隨便生成，失效或限流就換一個）
 lan：語言（zh=普通話、cte=粵語、en=美式英語、uk=英式英語）
 spd：語速（0-15，預設5）→有人說1-9
@@ -88,3 +88,18 @@ per：音色（詳情：ai.baidu.com/ai-doc/SPEECH/Rluv3uq3d ）
   "pauseDuration": 0,
   "url": " ​http://tts.baidu.com/text2audio,{\n    \"method\": \"POST\",\n    \"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 語速}}&per=音色編號&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=音量&aue=6&pit=音調&_res_tag_=audio\"\n}"
 }
+
+<hr>
+
+「Edge」→大致自然，好用，不跳段。
+(t)ext：文字
+(v)oice：音色
+(r)ate：語速（預設0，-100至100）
+(p)itch：音調（預設0，-100至100）
+volume：音量（最好不用這個）
+style：情緒（很多沒有這個）
+dialect：方言（很多沒有這個）
+
+https://tts.zwei.de.eu.org/api/tts
+https://libretts.is-an.org/api/tts
+https://tts.okraworks.cn/api/text-to-speech
