@@ -1,20 +1,25 @@
 #TTS源的研究筆記：
 
 「Legado」
-id：必須填寫（最好使用10位數以上）
-lastupdatetime：最後更新時間（格式最好是YYYYMMDDHHMMSS，但隨機生成也行）
-paragraphpause：換段停頓（0-10000毫秒，250=微、500=小、750=中、1000=大）
+* id：必須填寫（最好使用10位數以上，但隨機生成也行）
+* lastupdatetime：最後更新（格式最好是YYYYMMDDHHMMSS，但隨機生成也行）
+* paragraphpause：換段停頓（0-10000毫秒，250=微、500=小、750=中、1000=大）
+<hr>
+「搜狗」<br>
+→毫無反應，研究中。
+<hr>
+「谷歌」<br>
+→機味較重，備用，不跳段。
+<hr>
+「訊飛」<br>
+→質量參差不齊，備用，研究中。
 
-「搜狗」→毫無反應，研究中。
+* voice：音色
+* speedDelta：語速
+* pitchDelta：音調
+* volumeDelta：音量
 
-「谷歌」→機味較重，備用，不跳段。
-
-「訊飛」→質量參差不齊，備用，研究中。
-voice：音色
-speedDelta：語速
-pitchDelta：音調
-volumeDelta：音量
-
+```
 {
   "concurrentRate": "0",
   "contentType": "",
@@ -30,13 +35,16 @@ volumeDelta：音量
   "pauseDuration": 0,
   "url": "http://120.24.87.124/cgi-bin/ekho2.pl?cmd=SPEAK&voice=iflytekXiaomei&speedDelta=0&pitchDelta=0&volumeDelta=0&text={{java.encodeURI(java.encodeURI(speakText))}}"
 }
+```
+<hr>
+「思必馳」<br>
+→機味較輕，可用，會跳段。
 
-「思必馳」→機味較輕，可用，會跳段。
-voiceId：音色
-speed：語速（0.0-1.0）→有人說0-10
-volume：音量（0-100）
-audioType：編碼（mp3/wav）
-
+* voiceId：音色
+* speed：語速（0.0-1.0）→有人說0-10
+* volume：音量（0-100）
+* audioType：編碼（mp3/wav）
+```
 {
   "concurrentRate": "0",
   "contentType": "",
@@ -52,27 +60,32 @@ audioType：編碼（mp3/wav）
   "pauseDuration": 0,
   "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=音色&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=語速&volume=音量&audioType=格式"
 }
+```
+<hr>
 
-「百度」→比較自然，好用，會跳段（例：特殊符號/替換規則/複雜正文/過長段落/不支持語言/語速過快/pdt失效）。
-(tex)t：文字（最好不超過200字；JavaScript中可用encodeURIComponent()編碼，一次也行，兩次包含更多字符）
-cuid：標識（預設baidu_speech_demo，可換baike，失效或限流可以隨機生成或者自訂填寫。）
-lan：語言（zh=普通話、cte=粵語、en=美式英語、uk=英式英語）
-spd：語速（0-15，預設5）
-vol：音量（基礎0-9，精品0-15，預設5，最小0）
-pit：音調（0-15，預設5）
-le：字集編碼（UTF-8）
-url：接口（預設tts，出錯可換tsn，反之亦可）
-pdt：產線（預設301，遠端服務引擎決定音質、技術，出錯可換 1<內測>/5/11/12/15/30/31/58/160<基礎>/211/220<基礎>/221<方言>/232/301<通用>/311<臻品>/320/505<通用>。）
-aue：音頻編碼（3=mp3-16k/24k格式、 4=pcm-16k/24k、5=pcm-8k、6=wav（內容同pcm-16k/24k）; 出錯可以確認content-type是否填寫了音頻編碼， 必須和aue數值對應的內容格式一致，最好直接把content-type刪掉留空。）
-emo：情緒（neutral=中性、開心=happy、down=悲傷、angry=憤怒、surprise=驚訝、fear=恐懼，留空預設中性語氣；僅限指定音色支援情感合成，而且『超拟人多情感音色』能自動匹配情感無需人手設定，但不同音色支持的情感範圍存在不同。意思是，emo數值可以不調。）
-per：音色（詳情：ai.baidu.com/ai-doc/SPEECH/Rluv3uq3d ）
+「百度」<br>
+→比較自然，好用，會跳段（例：特殊符號/替換規則/複雜正文/過長段落/不支持語言/語速過快/pdt失效）。
+
+* (tex)t：文字（最好不超過200字；JavaScript中可用encodeURIComponent()編碼，一次也行，兩次包含更多字符）
+* cuid：標識（預設baidu_speech_demo，可換baike，失效或限流可以隨機生成或者自訂填寫。）
+* lan：語言（zh=普通話、cte=粵語、en=美式英語、uk=英式英語）
+* spd：語速（0-15，預設5）
+* vol：音量（基礎0-9，精品0-15，預設5，最小0）
+* pit：音調（0-15，預設5）
+* le：字集編碼（UTF-8）
+* url：接口（預設tts，出錯可換tsn，反之亦可）
+* pdt：產線（預設301，遠端服務引擎決定音質、技術，出錯可換 1<內測>/5/11/12/15/30/31/58/160<基礎>/211/220<基礎>/221<方言>/232/301<通用>/311<臻品>/320/505<通用>。）
+* aue：音頻編碼（3=mp3-16k/24k格式、 4=pcm-16k/24k、5=pcm-8k、6=wav（內容同pcm-16k/24k）; 出錯可以確認content-type是否填寫了音頻編碼， 必須和aue數值對應的內容格式一致，最好直接把content-type刪掉留空。）
+* emo：情緒（neutral=中性、開心=happy、down=悲傷、angry=憤怒、surprise=驚訝、fear=恐懼，留空預設中性語氣；僅限指定音色支援情感合成，而且『超拟人多情感音色』能自動匹配情感無需人手設定，但不同音色支持的情感範圍存在不同。意思是，emo數值可以不調。）
+* per：音色（詳情：ai.baidu.com/ai-doc/SPEECH/Rluv3uq3d ）
 ↓
 音色編號
-基礎：度小宇=1、度小美=0、度逍遥=3、度丫丫=4。
-精品：度小娇=5、度教授=6、度葛平=8、度播音=9、度京腔=10、度大叔=11、度逍遥=5003、度小鹿=5118、度博文=106、度小童=110、度小萌=111、度米朵=103。
-臻品：度逍遥=4003、度博文=4106、度小贤=4115、度小鹿=4119、度灵儿=4105、度小乔=4117、度小雯=4100、度米朵=4103、度姗姗=4144、度小贝=4278、度清风=4143、度小新=4140、度小彦=4129、度星河=4149、度小清=4254、度博文=4206、南方=4226。
-其他（❌大模型不可用，需要access_token❌）：度涵竹*=4189、度嫣然=4194*、度泽言*=4193、度怀安*=4195、度清影*=4196、度沁遥*=4197、度小粤=20100、度晓芸=20101、四川小哥=4257、度阿闽=4132、度小蓉=4139、台媒女声=5977、度小台=4007、度湘玉=4150、度阿锦=4134、度筱林=4172。
+* 基礎：度小宇=1、度小美=0、度逍遥=3、度丫丫=4。
+* 精品：度小娇=5、度教授=6、度葛平=8、度播音=9、度京腔=10、度大叔=11、度逍遥=5003、度小鹿=5118、度博文=106、度小童=110、度小萌=111、度米朵=103。
+* 臻品：度逍遥=4003、度博文=4106、度小贤=4115、度小鹿=4119、度灵儿=4105、度小乔=4117、度小雯=4100、度米朵=4103、度姗姗=4144、度小贝=4278、度清风=4143、度小新=4140、度小彦=4129、度星河=4149、度小清=4254、度博文=4206、南方=4226。
+* 其他（❌大模型不可用，需要access_token❌）：度涵竹*=4189、度嫣然=4194*、度泽言*=4193、度怀安*=4195、度清影*=4196、度沁遥*=4197、度小粤=20100、度晓芸=20101、四川小哥=4257、度阿闽=4132、度小蓉=4139、台媒女声=5977、度小台=4007、度湘玉=4150、度阿锦=4134、度筱林=4172。
 
+```
 {
   "concurrentRate": "",
   "contentType": "",
@@ -87,19 +100,48 @@ per：音色（詳情：ai.baidu.com/ai-doc/SPEECH/Rluv3uq3d ）
   "name": "百度-sample",
   "pauseDuration": 0,
   "url": " ​http://tts.baidu.com/text2audio,{\n    \"method\": \"POST\",\n    \"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 語速}}&per=音色編號&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=音量&aue=6&pit=音調&_res_tag_=audio\"\n}"
-}
-
+} 
+```
 <hr>
 
-「Edge」→大致自然，好用，不跳段。
-(t)ext：文字
-(v)oice：音色
-(r)ate：語速（預設0，-100至100）
-(p)itch：音調（預設0，-100至100）
-volume：音量（最好不用這個）
-style：情緒（很多沒有這個）
-dialect：方言（很多沒有這個）
+「Edge」<br>
+→大致自然，好用，太快會跳段。
+* (t)ext： 轉成語音的文字
+* (r)ate：語速（預設0，-100至100）
+* (p)itch：音調（預設0，-50至50）
+* speed：語速（0.5至2.0）
+* style：情緒（general=通用風格、assistant=智能助手、chat=聊天對話、customerservice=客服專業、newscast=新聞播報、affectionate=親切温暖、calm=平靜舒緩、cheerful=愉快歡樂、gentle=温和柔美、lyrical=抒情詩意、serious=嚴肅正式）
+* (v)oice：音色（詳情在 https://speech.microsoft.com/portal/voicegallery）
+* volume：音量（最好不用這個）
+* style：情緒（很多沒有這個）
+* dialect：方言（很多沒有這個）
 
-https://tts.zwei.de.eu.org/api/tts
-https://libretts.is-an.org/api/tts
-https://tts.okraworks.cn/api/text-to-speech
+GET示例（獲取可用語音列表API） <br>
+``` 
+https://libretts.is-an.org/api/voices?l=zh&f=1 
+```
+> l：用於篩選語言 <br>
+> f：用於指定返回格式
+
+GET示例（文字轉語音）<br>
+``` 
+https://tts.zwei.de.eu.org/api/tts?t=文字&v=zh-CN-XiaoxiaoNeural&r=0&p=0 
+```
+> t：轉成語音的文字 <br>
+> v：音色 <br>
+> r：語速 <br>
+> p：音調
+
+POST示例（文字轉語音；請求體必須為JSON格式）<br>
+```
+https://tts.okraworks.cn/api/text-to-speech,
+{
+"text": "{{speakText}}", 
+"voice": "zh-CN-XiaoxiaoNeural", 
+"rate": 0, 
+"pitch": "0",
+"speed": 1.0,
+"style": "general"
+}
+```
+
