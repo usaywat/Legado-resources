@@ -21,13 +21,34 @@ usaywat_sources-video|影片源
 usaywat_theme|主題
 usaywat_theme-pkg|主題包
 
->註：https://raw.githubusercontent.com/usaywat/Legado-resources/main/Sources/{filename}.json
+>註：https://raw.githubusercontent.com/usaywat/Legado-resources/refs/heads/main/Source/{filename}.json
 
 ## Fonts
-主要放置平時常用的字型，不一定是最新版本，建議訂閲原作者：
+主要放置平時常用的字型，不一定是最新版本，建議前往字體網或者訂閲原作者：
 
-|FONT|VER.|繁簡|AUTHOR|SOURCE|
-|---|---|---|---|---|
-縫合像素
-原俠正楷
-繁媛
+貓啃網
+> https://www.maoken.com/freefonts/page/2
+
+S2T字體合集
+> https://www.pkstep.com/simplified-to-traditional-font/
+
+偽直排字體合集
+> https://here.vixual.net/files/fonts/rotate/ <br>
+> https://github.com/huthief/VerticalFont
+
+Q：如何自製偽直排字體？
+> https://medium.com/ereadertips/自製偽直排字型-501e671219f2
+
+注音繁中合集
+> https://www.pkstep.com/zhuyin-font-download/
+
+像素字體合集
+
+- 縫合像素：方舟像素的過渡期產物
+
+- 方舟像素：未完成持續更新
+
+- 原俠正楷：推薦原版和TW90版
+> https://github.com/tonyhuan/GuanKiapTsingKhai
+
+- 繁媛：
